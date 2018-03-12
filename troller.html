@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+   <title>
+    Home
+   </title>
+   <link rel="stylesheet" href=" troller.css">
+  </head>
+  <body onload="start()">
+    <audio controls id="audio">
+      <source src="audio.mp3" type="audio/mpeg">
+    </audio>
+  <script>
+
+var x = document.getElementById("audio")
+
+    function start() {
+
+    myVar = setTimeout(function(){ troll(); }, 3000);
+    myVar = setTimeout(function(){ playAudio(); }, 3000);
+
+    }
+    function playAudio()
+    {
+      x.play();
+    }
+
+
+    function troll() {
+    document.getElementById("screamface").style.visibility = "visible";
+    document.getElementById("button").style.visibility = "visible";
+
+    }
+
+    function end()
+    {
+    document.getElementById("screamface").style.visibility = "hidden";
+
+       document.getElementById("button").style.visibility = "hidden";
+    }
+
+  </script>
+
+    <header>
+    <div class = "mainDiv1">
+    <div class = "div1">
+    </div>
+    <div class = "div2">
+    </div>
+    <div class = "div3">
+    </div>
+    <div class = "div4">
+    </div>
+    <nav>
+      <p class="home">
+        <a href ="#goFundUs">Home</a>
+      </p>
+      <p class="about">
+        <a href ="#gallery">About Us</a>
+      </p>
+      <p class="service">
+        <a href ="#blog">Service</a>
+      </p>
+      <p class="support">
+        <a href ="#gallery">Support</a>
+      </p>
+      <p class="contact">
+        <a href ="#blog">Contact Us</a>
+      </p>
+    </nav>
+   </div>
+ </header>
+ <div class ="mainDiv2">
+
+  <h1 class = "buisness">
+   Pushard Welding
+  </h1>
+  <P class = "logo">
+   <img src ="companyLogo.png"
+   style ="width:200px;">
+  </p>
+  <p class = "member">
+   Member Login
+  </p>
+  <p class = "user">
+   user:
+  </p>
+  <p class = "password">
+   password:
+  </p>
+  <p class = "forgot">
+   Forgot Password?
+  </p>
+  <p class = "click">
+   click here
+  </p>
+ <p class="backgroundPic">
+  <img src ="backgroudPic.jpg"
+   style ="width:1325px; height:600px;">
+ </p>
+ <p class = "lButton" >
+ <a href="default.asp" target="_blank">
+   Login
+ </a>
+</p>
+<textarea class = "userText" >
+</textarea>
+<textarea class = "passwordText" >
+</textarea>
+</div>
+<div class = "mainDiv3">
+
+  <h1 class="aoc">
+    About Our Company
+  </h1>
+  <p class="stuff">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Eligendi non quis exercitationem culpa nesciunt nihil aut
+    nostrum explicabo reprehenderit optio amet ab temporibus
+    asperiores quasi cupiditate. Voluptatum ducimus voluptates
+     voluptas?
+  </p>
+  <h2 class="ln">
+    Lastest News
+  </h2>
+  <p class="stuffTwo">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Eligendi non quis exercitationem culpa nesciunt nihil aut
+    nostrum explicabo reprehenderit optio.
+  </p>
+  <p class="stuffTwoHalf">
+    exercitationem culpa nesciunt nihil aut
+    nostrum explicabo reprehenderit optio.
+  </p>
+  <p class="newsPic">
+   <img src ="newsPic.jpg"
+    style ="width:75px; height: 100px;">
+  </p>
+  <p class="newsPicTwo">
+   <img src ="newsPic2.png"
+    style ="width:100px; height: 75px;">
+  </p>
+</div>
+<div class ="mainDiv4">
+  <h1 class="ts">
+    Top Service
+  </h1>
+  <p class="stuffThree">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Eligendi non quis exercitationem culpa nesciunt nihil aut
+    nostrum.
+  </p>
+  <p class="stuffFour">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Eligendi non quis exercitationem culpa nesciunt nihil aut
+    nostrum.
+  </p>
+  <p class="stuffFive">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Eligendi non quis exercitationem culpa nesciunt nihil aut
+    nostrum.
+  </p>
+  <p class="stuffSix">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Eligendi non quis exercitationem culpa nesciunt nihil aut
+    nostrum.
+  </p>
+  <p class="stuffSeven">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+    Eligendi non quis exercitationem culpa nesciunt nihil aut
+    nostrum.
+  </p>
+  <p class="servicePic">
+   <img src ="servicePic.jpg"
+    style ="width:400px; height: 600px;">
+  </p>
+</div>
+<div class = "mainDiv5">
+  <h1 class="socialMedia">
+    Social Media
+  </h1>
+  <h1 class="general">
+    General
+  </h1>
+  <h1 class="concern">
+    Concerns?
+  </h1>
+  <p class="facebookLogo">
+   <img src ="facebook.png"
+    style ="width:55px; height:35px;">
+  </p>
+  <p class="facebook">
+    /pushardWelding
+  </p>
+  <p class="instagramLogo">
+   <img src ="instagram.png"
+    style ="width:45px;">
+  </p>
+  <p class="instagram">
+    @pushardWelding
+  </p>
+  <p class="twitterLogo">
+   <img src ="twitter.png"
+    style ="width:40px;">
+  </p>
+  <p class="twitter">
+    @pushardTweets
+  </p>
+  <p class="snapchatLogo">
+   <img src ="Snapchat.png"
+    style ="width:40px;">
+  </p>
+  <p class="snapchat">
+    PushardSnap
+  </p>
+  <p class="number">
+    (301)-926-8300
+  </p>
+  <p class="street">
+    1370 Piccard Dr
+  </p>
+  <p class="cityStateZip">
+    Rockville,MD 20850
+  </p>
+  <p class="country">
+    United States
+  </p>
+  <p class="location">
+   <img src ="locationPic.PNG"
+    style ="width:150px; height: 150px;">
+  </p>
+  <p class="finalName">
+    Name
+  </p>
+  <p class="finalEmail">
+    Email
+  </p>
+  <p class="finalMessage">
+    Message
+  </p>
+  <p class="backgroundPicTwo">
+   <img src ="backgroudPic2.jpg"
+    style ="width:1325px; height:600px;">
+  </p>
+  <textarea class = "nameSection" >
+  </textarea>
+  <textarea class = "emailSection" >
+  </textarea>
+  <textarea class = "messageSection" >
+  </textarea>
+  <p class = "sButton" >
+  <a href="default.asp" target="_blank">
+    Send
+  </a>
+  </p>
+  <div class = "detailOne">
+  </div>
+  <div class = "detailTwo">
+  </div>
+  <div class = "detailThree">
+  </div>
+  <div class = "detailFour">
+  </div>
+</div>
+
+<img id ="screamface" src ="screamface.jpg" style ="width:1325px;">
+<button id ="button" onclick="end()">Remove</button>
+</body>
+</html>

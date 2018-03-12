@@ -1,0 +1,598 @@
+#screamface
+{
+
+	top: 0px;
+  left: 0px;
+	position: fixed;
+	visibility: hidden;
+}
+#audio
+{
+	visibility: hidden;
+}
+#button
+{
+	width: 125px;
+	height: 75px;
+	top: 100px;
+  left: 585px;
+	position: fixed;
+	visibility: hidden;
+}
+/* End Shared by all html */
+
+
+/* Start for header */
+.mainDiv1
+{
+	width: 1325px;
+	height: 100px;
+  top: 0px;
+  left: auto;
+	background-color: black;
+	position: absolute;
+}
+.div1
+{
+  width: 3px;
+	height: 50px;
+  top: 25px;
+  left: 261.805px;
+	background-color: grey;
+	position: absolute;
+}
+.div2
+{
+  width: 3px;
+	height: 50px;
+  top: 25px;
+  left: 542.025px;
+	background-color: grey;
+	position: absolute;
+}
+.div3
+{
+  width: 3px;
+	height: 50px;
+  top: 25px;
+  left: 793.735px;
+	background-color: grey;
+	position: absolute;
+}
+.div4
+{
+  width: 3px;
+	height: 50px;
+  top: 25px;
+  left: 1058.345px;
+	background-color: grey;
+	position: absolute;
+}
+.home
+{
+  font-size: 25px;
+  top: 15px;
+  left: 100px;
+  position: absolute;
+}
+.about
+{
+  font-size: 25px;
+  top: 15px;
+  left: 362.5px;
+  position: absolute;
+}
+.service
+{
+  font-size: 25px;
+  top: 15px;
+  left: 625px;
+  position: absolute;
+}
+.support
+{
+  font-size: 25px;
+  top: 15px;
+  left: 887.5px;
+  position: absolute;
+}
+.contact
+{
+  font-size: 25px;
+  top: 15px;
+  left: 1150px;
+  position: absolute;
+}
+p a:link
+{
+  color: darkgrey;
+  text-decoration: none;
+}
+p a:hover
+{
+  color: yellow;
+}
+/* End for Header */
+
+/* Start for 2nd */
+.mainDiv2
+{
+	width: 1325px;
+	height: 600px;
+  top: 100px;
+  left: auto;
+	background-color: grey;
+	position: absolute;
+}
+.buisness
+{
+  font-size: 40px;
+  top: 25px;
+  left: 320px;
+  color: yellow;
+  position: absolute;
+}
+.logo
+{
+  top: 0px;
+  left: 100px;
+  position: absolute;
+}
+.member
+{
+  font-size: 25px;
+  top: 175px;
+  left: 100px;
+  color: darkgrey;
+  position: absolute;
+}
+.user
+{
+  font-size: 25px;
+  top: 210px;
+  left: 100px;
+  color: darkgrey;
+  position: absolute;
+}
+.password
+{
+  font-size: 25px;
+  top: 285px;
+  left: 100px;
+  color: darkgrey;
+  position: absolute;
+}
+.forgot
+{
+  font-size: 25px;
+  top: 395px;
+  left: 100px;
+  color: darkgrey;
+  position: absolute;
+}
+.click
+{
+  font-size: 25px;
+  top: 425px;
+  left: 100px;
+  color: darkgrey;
+  position: absolute;
+}
+.lButton
+{
+  height: 30px;
+  width: 200px;
+  top: 365px;
+  left: 100px;
+  position: absolute;
+  background-color: lightgrey;
+  color: darkgrey;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 2px solid black;
+}
+.lButton a:hover {
+    background-color: yellow;
+}
+.backgroundPic
+{
+  top: -15px;
+  left: 0px;
+  position: absolute;
+  opacity: 0.1;
+}
+.userText
+{
+  width: 200px;
+  height: 25px;
+  top: 265px;
+  left: 100px;
+	background-color: lightgrey;
+  position: absolute;
+  resize: none;
+}
+.passwordText
+{
+  width: 200px;
+  height: 25px;
+  top: 340px;
+  left: 100px;
+	background-color: lightgrey;
+  position: absolute;
+  resize: none;
+}
+/* End for 2nd */
+
+/* Start for 3rd */
+.mainDiv3
+{
+	width: 925px;
+	height: 600px;
+  top: 700px;
+  left: auto;
+	background-color: grey;
+	position: absolute;
+}
+.aoc
+{
+  font-size: 40px;
+  top: 0px;
+  left: 75px;
+  color: yellow;
+  position: absolute;
+}
+.stuff
+{
+  font-size: 30px;
+  top: 50px;
+  left: 80px;
+  padding-right: 75px;
+  color: darkgrey;
+  position: absolute;
+}
+.ln
+{
+  font-size: 40px;
+  top: 235px;
+  left: 80px;
+  color: yellow;
+  position: absolute;
+}
+.stuffTwo
+{
+  font-size: 25px;
+  top: 310px;
+  left: 205px;
+  padding-right: 125px;
+  color: darkgrey;
+  position: absolute;
+}
+.stuffTwoHalf
+{
+  font-size: 25px;
+  top: 435px;
+  left: 205px;
+  padding-right: 125px;
+  color: darkgrey;
+  position: absolute;
+}
+.newsPic
+{
+  top: 315px;
+  left: 80px;
+  position: absolute;
+}
+.newsPicTwo
+{
+  top: 435px;
+  left: 80px;
+  position: absolute;
+}
+/* End for 3rd */
+
+/* Start for 4th */
+.mainDiv4
+{
+	width: 400px;
+	height: 600px;
+  top: 700px;
+  left: 933px;
+	background-color: grey;
+	position: absolute;
+}
+.ts
+{
+  font-size: 40px;
+  top: 0px;
+  left: 105px;
+  color: yellow;
+  position: absolute;
+}
+.stuffThree
+{
+  font-size: 15px;
+  top: 100px;
+  left: 80px;
+  padding-right: 75px;
+  color: darkgrey;
+  position: absolute;
+}
+.stuffFour
+{
+  font-size: 15px;
+  top: 185px;
+  left: 80px;
+  padding-right: 75px;
+  color: darkgrey;
+  position: absolute;
+}
+.stuffFive
+{
+  font-size: 15px;
+  top: 270px;
+  left: 80px;
+  padding-right: 75px;
+  color: darkgrey;
+  position: absolute;
+}
+.stuffSix
+{
+  font-size: 15px;
+  top: 355px;
+  left: 80px;
+  padding-right: 75px;
+  color: darkgrey;
+  position: absolute;
+}
+.stuffSeven
+{
+  font-size: 15px;
+  top: 440px;
+  left: 80px;
+  padding-right: 75px;
+  color: darkgrey;
+  position: absolute;
+}
+.servicePic
+{
+  top: -15px;
+  left: 0px;
+  position: absolute;
+  opacity: 0.1;
+}
+/* End for 4th */
+
+/* Start for 5th */
+.mainDiv5
+{
+	width: 1325px;
+	height: 600px;
+  top: 1300px;
+  left: 8px;
+	background-color: grey;
+	position: absolute;
+}
+.socialMedia
+{
+  font-size: 40px;
+  top: 0px;
+  left: 100px;
+  color: yellow;
+  position: absolute;
+}
+.general
+{
+  font-size: 40px;
+  top: 0px;
+  left: 575.205px;
+  color: yellow;
+  position: absolute;
+}
+.concern
+{
+  font-size: 40px;
+  top: 0px;
+  left: 1042.78px;
+  color: yellow;
+  position: absolute;
+}
+.facebookLogo
+{
+  top: 75px;
+  left: 50px;
+  position: absolute;
+}
+.facebook
+{
+  font-size: 25px;
+  top: 67.5px;
+  left: 105px;
+  position: absolute;
+}
+.instagramLogo
+{
+  top: 120px;
+  left: 55px;
+  position: absolute;
+}
+.instagram
+{
+  font-size: 25px;
+  top: 115px;
+  left: 105px;
+  position: absolute;
+}
+.twitterLogo
+{
+  top: 170px;
+  left: 60px;
+  position: absolute;
+}
+.twitter
+{
+  font-size: 25px;
+  top: 165px;
+  left: 105px;
+  position: absolute;
+}
+.snapchatLogo
+{
+  top: 220px;
+  left: 60px;
+  position: absolute;
+}
+.snapchat
+{
+  font-size: 25px;
+  top: 215px;
+  left: 105px;
+  position: absolute;
+}
+.number
+{
+  font-size: 25px;
+  top: 67.5px;
+  left: 565px;
+  position: absolute;
+}
+.street
+{
+  font-size: 25px;
+  top: 105px;
+  left: 556px;
+  position: absolute;
+}
+.cityStateZip
+{
+  font-size: 25px;
+  top: 145px;
+  left: 545px;
+  position: absolute;
+}
+.country
+{
+  font-size: 25px;
+  top: 185px;
+  left: 585px;
+  position: absolute;
+}
+.location
+{
+  top: 225px;
+  left: 575px;
+  position: absolute;
+}
+.finalName
+{
+  font-size: 20px;
+  top: 65px;
+  left: 1050px;
+  position: absolute;
+}
+.finalEmail
+{
+  font-size: 20px;
+  top: 130px;
+  left: 1050px;
+  position: absolute;
+}
+.finalMessage
+{
+  font-size: 20px;
+  top: 195px;
+  left: 1050px;
+  position: absolute;
+}
+.backgroundPicTwo
+{
+  top: -16px;
+  left: 0px;
+  position: absolute;
+  opacity: 0.1;
+}
+.sButton a:link
+{
+  height: 30px;
+  width: 200px;
+  top: 435px;
+  left: 1080px;
+  position: absolute;
+  background-color: rgba(244,216,197,0.5);
+  color: rgba(123,92,30,0.5);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 2px solid rgba(224,81,2,0.36);
+}
+.sButton a:hover
+{
+    background-color: rgba(224,81,2,0.36);
+}
+.nameSection
+{
+  width: 200px;
+  height: 25px;
+  top: 110px;
+  left: 1050px;
+	background-color: rgba(244,216,197,0.5);
+  position: absolute;
+  resize: none;
+}
+.emailSection
+{
+  width: 200px;
+  height: 25px;
+  top: 175px;
+  left: 1050px;
+	background-color: rgba(244,216,197,0.5);
+  position: absolute;
+  resize: none;
+}
+.messageSection
+{
+  width: 250px;
+  height: 125px;
+  top: 240px;
+  left: 1050px;
+	background-color: rgba(244,216,197,0.5);
+  position: absolute;
+  resize: none;
+}
+.detailOne
+{
+  width: 3px;
+  height: 150px;
+  top: 25px;
+  left: 450px;
+	background-color: rgba(123,92,30,0.5);
+  position: absolute;
+}
+.detailTwo
+{
+  width: 3px;
+  height: 150px;
+  top: 25px;
+  left: 850px;
+	background-color: rgba(123,92,30,0.5);
+ position: absolute;
+}
+.detailThree
+{
+  width: 250px;
+  height: 3px;
+  top: 400px;
+  left: 1055px;
+	background-color: rgba(123,92,30,0.5);
+position: absolute;
+}
+.detailFour
+{
+  width: 1125px;
+  height: 3px;
+  top: 550px;
+  left: 100px;
+	background-color: rgba(123,92,30,0.5);
+position: absolute;
+}
+/* End for 5th */
